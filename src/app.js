@@ -1,7 +1,7 @@
 const express=require("express")
 const app=express()
 const path=require("path")
-const public=path.join(__dirname,"/public")
+const public=path.join(__dirname,"./../public")
 
 app.listen(8080,()=>{
     console.log("¡¡ Servidor Funcionando !!")
